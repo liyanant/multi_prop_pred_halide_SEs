@@ -1,4 +1,4 @@
-# Multi-property predictions and verifications of novel halide SEs
+# Multi-property predictions and verifications of novel halide solid electrolytes (SEs)
 Repository for multi-property predictions and verifications of novel halide SEs. Properties predicted include ionic conudctivity, bulk modulus (K_VRH), shear modulus (G_VRH), and electrochemical stability window (ESW) via the redox potentials.
 
 
