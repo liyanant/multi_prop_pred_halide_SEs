@@ -1,6 +1,13 @@
 # Multi-property predictions and verifications of novel halide SEs
 Repository for multi-property predictions and verifications of novel halide SEs
 
+## Prerequisites
+The codes in this work were mainly prepared using Jupyter Notebook and/or Google Colab. Users intending to replicate this work would need to install several packages and libraries to do so.
+
+For model developments, Pycaret, Pytorch, and Skorch should be installed. These can be installed using pip or conda.
+
+The training and validation datasets used in this work were prepared with the matminer library and Materials Project API.
+
 ## Authors
 This repository and codes under it are maintained by
 
