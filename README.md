@@ -9,7 +9,7 @@ The codes in this work were mainly prepared using Jupyter Notebook and/or Google
 For model developments, Pycaret, Pytorch, and Skorch should be installed.
 
 
-The training and validation datasets used in this work were prepared with the matminer library, pymatgen, and Materials Project API. The ionic conductivity training dataset is identical to the one used by Kang et al. The mechanical properties training dataset is based off the one by Sun et al. The ESW training dataset is based off the work by Wang et al. All the mentioned datasets can be found in the ionic_conductivity/datasets
+The training and validation datasets used in this work were prepared with the matminer library, pymatgen, and Materials Project API. The ionic conductivity training dataset is identical to the one used by Kang et al. The mechanical properties training dataset is based off the one by Sun et al. The ESW training dataset is based off the work by Wang et al. All the mentioned datasets can be found in the ionic_conductivity/datasets, mechanical_properties/datasets, and ESW/datasets subdirectories
 
 
 ## Authors
