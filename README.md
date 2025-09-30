@@ -13,17 +13,18 @@ The training and validation datasets used in this work were prepared with the ma
 
 
 ## Key information
-The ionic conductivity training dataset is identical to the one used by Kang et al. The mechanical properties training dataset is based off the one by Sun et al. The ESW training dataset is based off the work by Wang et al. All the mentioned datasets can be found in the ionic_conductivity/datasets, mechanical_properties/datasets, and ESW/datasets subdirectories.
+The ionic conductivity training dataset is identical to the one used by Kang et al. The mechanical properties training dataset is based off the one by Sun et al. The ESW training dataset is based off the work by Wang et al. All the mentioned datasets can be found in the ionic_conductivity/datasets, mechanical_properties/datasets, and ESW/datasets subdirectories of this repository.
 
-The optimised models for machine learning predictions have been uploaded for ease of replication of this work. They can be found in the ionic_conductivity/optimised_models, mechanical_properties/optimised_models, and ESW/optimised_models subdirectories.
+The optimised models for machine learning predictions and model training have been uploaded for ease of replication of this work. They can be found in the ionic_conductivity/optimised_models, mechanical_properties/optimised_models, and ESW/optimised_models subdirectories of this repository.
 
-Codes used for model training and predictions, and producing feature importance plots can be found in the ionic_conductivity/codes, mechanical_properties/codes, and ESW/codes subdirectories.
+Codes used for model training and predictions, and producing feature importance plots can be found in the ionic_conductivity/codes, mechanical_properties/codes, and ESW/codes subdirectories of this repository.
 
 
 ## Authors
 This repository and codes under it are maintained by
 
 - Li Yan Anthony Choong (LIYANANT001@e.ntu.edu.sg)
+
 
 ## Key References
 (1) Jain, A.; Ong, S. P.; Hautier, G.; Chen, W.; Richards, W. D.; Dacek, S.; Cholia, S.; Gunter, D.; Skinner, D.; Ceder, G.; Persson, K. A. Commentary: The Materials Project: A Materials Genome Approach to Accelerating Materials Innovation. APL Materials 2013, 1 (1). https://doi.org/10.1063/1.4812323.
