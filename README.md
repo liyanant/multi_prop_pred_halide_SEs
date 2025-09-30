@@ -1,12 +1,16 @@
 # Multi-property predictions and verifications of novel halide SEs
 Repository for multi-property predictions and verifications of novel halide SEs
 
-## Key reuirements
+
+## Key requirements
 The codes in this work were mainly prepared using Jupyter Notebook and/or Google Colab. Users intending to replicate this work would need to install several packages and libraries to do so. These can be installed using pip or conda.
+
 
 For model developments, Pycaret, Pytorch, and Skorch should be installed.
 
+
 The training and validation datasets used in this work were prepared with the matminer library, pymatgen, and Materials Project API. The ionic conductivity training dataset is identical to the one used by Kang et al. The mechanical properties training dataset is based off the one by Sun et al. The ESW training dataset is based off the work by Wang et al.
+
 
 ## Authors
 This repository and codes under it are maintained by
