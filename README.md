@@ -17,6 +17,8 @@ The ionic conductivity training dataset is identical to the one used by Kang et 
 
 The optimised models for machine learning predictions have been uploaded for ease of replication of this work. They can be found in the ionic_conductivity/optimised_models, mechanical_properties/optimised_models, and ESW/optimised_models subdirectories.
 
+Codes used for model training and predictions, and producing feature importance plots can be found in the ionic_conductivity/codes, mechanical_properties/codes, and ESW/codes subdirectories.
+
 
 ## Authors
 This repository and codes under it are maintained by
