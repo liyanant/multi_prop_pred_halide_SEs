@@ -6,7 +6,7 @@ Repository for multi-property predictions and verifications of novel halide SEs.
 The codes in this work were mainly prepared using Jupyter Notebook and/or Google Colab. Users intending to replicate this work would need to install several packages and libraries to do so. These can be installed using pip or conda.
 
 
-For model developments, Pycaret, Pytorch, and Skorch should be installed.
+For model developments, Pycaret, Pytorch, and Skorch should be installed. For Pycaret installation, users may want to attempt doing so with `pip install pycaret[full]` first. If installation issues are encountered with regards to compatibility with Python versions starting from 3.12, users may want to use this command instead `pip install git+https://github.com/pycaret/pycaret.git@master` as a possible solution.
 
 
 The training and validation datasets used in this work were prepared with the matminer library, pymatgen, and Materials Project API.
