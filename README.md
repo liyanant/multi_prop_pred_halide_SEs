@@ -21,7 +21,7 @@ Codes used for model training and predictions, and producing feature importance 
 
 
 ## Authors
-This repository and codes under it are maintained by
+This repository is maintained by
 
 - Li Yan Anthony Choong (LIYANANT001@e.ntu.edu.sg)
 
