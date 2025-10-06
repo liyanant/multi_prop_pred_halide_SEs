@@ -1,1 +1,2 @@
+# Information about the datasets
 Both the training and validation datasets are dervied from the Materials Project. While this work only used the compositional attributes from matminer for model training, addtional structural attributes from matminer have also been included in both datasets as optional features for users to perform their own model training for other purposes beyond those of this work
