@@ -2,7 +2,7 @@
 This is a repository for multi-property predictions and verifications of novel halide SEs. Properties predicted include ionic conudctivity, bulk modulus (K_VRH), shear modulus (G_VRH), and electrochemical stability window (ESW) via the redox potentials.
 
 
-## Key requirements
+## Key information
 The codes in this work were mainly prepared and run using either Jupyter Notebook or Google Colab. Users intending to replicate this work would need to install several packages and libraries to do so. These can be installed using pip or conda.
 
 
@@ -12,7 +12,6 @@ For model developments, Pycaret, Pytorch, and Skorch should be installed. For Py
 The training and validation datasets used in this work were prepared with the matminer library, pymatgen, and Materials Project API<sup>1-3</sup>.
 
 
-## Key information
 All the training and validation datasets used in this work contain 145 compositional attributes extracted using Matminer. The chemical composition is used as the input to extract the aforementioned features. It is recommended that users prepare the training and validation datasets directly from the respective sources mentioned below:
 
 The validation datasets are prepared and extracted from the Materials Project API<sup>1</sup>
@@ -21,7 +20,7 @@ The ionic conductivity training dataset is identical to the one used by Kang et 
 
 The optimised models for machine learning predictions and model training have been uploaded for ease of replication of this work. They can be found in the `ionic_conductivity/optimised_models`, `mechanical_properties/optimised_models`, and `ESW/optimised_models` subdirectories. To avoid issues with loading the Skorch NN ionic conductivity classification models, PyTorch versions beyond 2.5.1 should not be installed.
 
-The main code to perform model training for predictions of the properties mentioned earlier is adapted from that by Kang et al.<sup>4</sup>. Users are recommended to refer to the original code provided in their GitHub repository.<sup>4</sup>. Link: https://github.com/kminmin/LiSSE-MP. The main difference is the addition of lines of code to save the average training performance metrics of the models besides the average test performance metrics. Both classification and regression metrics are compatible with the main code, depending on the property being predicted (classification for ionic conductivity and regression for ESW and mechanical properties). The snippet of code used to generate the Shapley feature importance plots is also similar to that by Kang et al. and available from their same repository <sup>4</sup>.
+The main code to perform model training for predictions of the properties mentioned earlier is adapted from that by Kang et al.<sup>4</sup>. Users are recommended to refer to the original code provided in their GitHub repository.<sup>4</sup>. Link: https://github.com/kminmin/LiSSE-MP. The main difference is the addition of lines of code to save the average training performance metrics of the models besides the average test performance metrics. Both classification and regression metrics are compatible with the main code, depending on the property being predicted (classification for ionic conductivity and regression for ESW and mechanical properties). Users are advised to save the average training and test performance metrics in csv files to produce the training and test box plots for comparison. The snippet of code used to generate the Shapley feature importance plots is also similar to that by Kang et al. and available from their same repository<sup>4</sup>.
 
 
 ## Authors
