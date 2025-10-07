@@ -9,17 +9,19 @@ The codes in this work were mainly prepared using Jupyter Notebook and/or Google
 For model developments, Pycaret, Pytorch, and Skorch should be installed. For Pycaret installation, users may want to attempt doing so with `pip install pycaret[full]` first. If installation issues are encountered with regards to compatibility with Python versions starting from 3.12, users may want to use this command instead `pip install git+https://github.com/pycaret/pycaret.git@master` as a possible solution.
 
 
-The training and validation datasets used in this work were prepared with the matminer library, pymatgen, and Materials Project API.
+The training and validation datasets used in this work were prepared with the matminer library, pymatgen, and Materials Project API<sup>1-3</sup>.
 
 
 ## Key information
-The ionic conductivity training dataset is identical to the one used by Kang et al. The mechanical properties training dataset is based off the one by Sun et al. The ESW training dataset is based off the work by Wang et al. All the mentioned datasets can be found in the `ionic_conductivity/datasets`, `mechanical_properties/datasets`, and `ESW/datasets` subdirectories of this repository.
+All the training and validation datasets used in this work contain 145 compositional attributes extracted using Matminer. It is recommended that users prepare the training and validation datasets directly from the respective sources mentioned below:
 
+The validation datasets are prepared and extracted from the Materials Project API <sup>1</sup>
+
+The ionic conductivity training dataset is identical to the one used by Kang et al.<sup>4</sup>.  The mechanical properties training dataset is based off the one by Sun et al.<sup>5</sup>. The ESW training dataset is based off the work by Wang et al.<sup>6</sup>.
 
 The optimised models for machine learning predictions and model training have been uploaded for ease of replication of this work. They can be found in the `ionic_conductivity/optimised_models`, `mechanical_properties/optimised_models`, and `ESW/optimised_models` subdirectories of this repository.
 
-
-Codes used for model training and predictions, and producing feature importance plots can be found in the `ionic_conductivity/codes`, `mechanical_properties/codes`, and `ESW/codes` subdirectories of this repository.
+Codes used for model training and predictions, and producing feature importance plots can be found in the `ionic_conductivity/codes`, `mechanical_properties/codes`, and `ESW/codes` subdirectories of this repository. The main code for model training is adapted from that by Kang et al.<sup>4</sup>
 
 
 ## Authors
@@ -28,16 +30,22 @@ This repository is maintained by
 - Li Yan Anthony Choong (LIYANANT001@e.ntu.edu.sg)
 
 
-## Key References
-(1) Jain, A.; Ong, S. P.; Hautier, G.; Chen, W.; Richards, W. D.; Dacek, S.; Cholia, S.; Gunter, D.; Skinner, D.; Ceder, G.; Persson, K. A. Commentary: The Materials Project: A Materials Genome Approach to Accelerating Materials Innovation. APL Materials 2013, 1 (1). https://doi.org/10.1063/1.4812323.
+## References
+(1) Ward, L.; Dunn, A.; Faghaninia, A.; Zimmermann, N. E. R.; Bajaj, S.; Wang, Q.; Montoya, J.; Chen, J.; Bystrom, K.; Dylla, M.; Chard, K.; Asta, M.; Persson, K. A.; Snyder, G. J.; Foster, I.; Jain, A. Matminer: An Open Source Toolkit for Materials Data Mining. Computational Materials Science 2018, 152, 60–69. https://doi.org/10.1016/j.commatsci.2018.05.018.<img width="468" height="55" alt="image" src="https://github.com/user-attachments/assets/acaf90ed-9ba8-41bc-9a9a-6750a7e9714e" />
 
 
-(2) Kang, S.; Kim, M.; Min, K. Discovery of Superionic Solid-State Electrolyte for Li-Ion Batteries via Machine Learning. J. Phys. Chem. C 2023, 127 (39), 19335–19343. https://doi.org/10.1021/acs.jpcc.3c02908.
+(2) Ong, S. P.; Richards, W. D.; Jain, A.; Hautier, G.; Kocher, M.; Cholia, S.; Gunter, D.; Chevrier, V. L.; Persson, K. A.; Ceder, G. Python Materials Genomics (Pymatgen): A Robust, Open-Source Python Library for Materials Analysis. Computational Materials Science 2013, 68, 314–319. https://doi.org/10.1016/j.commatsci.2012.10.028.<img width="468" height="45" alt="image" src="https://github.com/user-attachments/assets/42a40d26-3074-4b8b-a506-64cc6d7ecc95" />
 
 
-(3) Sun, J.; Kang, S.; Kim, J.; Min, K. Accelerated Discovery of Novel Garnet-Type Solid-State Electrolyte Candidates via Machine Learning. ACS Appl. Mater. Interfaces 2023, 15 (4), 5049–5057. https://doi.org/10.1021/acsami.2c15980.
+(3) Jain, A.; Ong, S. P.; Hautier, G.; Chen, W.; Richards, W. D.; Dacek, S.; Cholia, S.; Gunter, D.; Skinner, D.; Ceder, G.; Persson, K. A. Commentary: The Materials Project: A Materials Genome Approach to Accelerating Materials Innovation. APL Materials 2013, 1 (1). https://doi.org/10.1063/1.4812323.
 
 
-(4) Wang, X.; He, B.; Liu, B.; Avdeev, M.; Shi, S. A Database of Electrochemical Stability Windows Containing over 1500 Solid‐State Inorganic Compounds. Adv Funct Materials 2024, 2406146. https://doi.org/10.1002/adfm.202406146.
+(4) Kang, S.; Kim, M.; Min, K. Discovery of Superionic Solid-State Electrolyte for Li-Ion Batteries via Machine Learning. J. Phys. Chem. C 2023, 127 (39), 19335–19343. https://doi.org/10.1021/acs.jpcc.3c02908.
+
+
+(5) Sun, J.; Kang, S.; Kim, J.; Min, K. Accelerated Discovery of Novel Garnet-Type Solid-State Electrolyte Candidates via Machine Learning. ACS Appl. Mater. Interfaces 2023, 15 (4), 5049–5057. https://doi.org/10.1021/acsami.2c15980.
+
+
+(6) Wang, X.; He, B.; Liu, B.; Avdeev, M.; Shi, S. A Database of Electrochemical Stability Windows Containing over 1500 Solid‐State Inorganic Compounds. Adv Funct Materials 2024, 2406146. https://doi.org/10.1002/adfm.202406146.
 
 
