@@ -21,7 +21,7 @@ The ionic conductivity training dataset is identical to the one used by Kang et 
 
 The optimised models for machine learning predictions and model training have been uploaded for ease of replication of this work. They can be found in the `ionic_conductivity/optimised_models`, `mechanical_properties/optimised_models`, and `ESW/optimised_models` subdirectories of this repository.
 
-Codes used for model training and predictions, and producing feature importance plots can be found in the `ionic_conductivity/codes`, `mechanical_properties/codes`, and `ESW/codes` subdirectories of this repository. The main code for model training is adapted from that by Kang et al.<sup>4</sup>
+The main code to perform model training for predictions of the properties mentioned earlier is adapted from that by Kang et al.<sup>4</sup>. Users are recommended to refer to the original code provided in their GitHub repository.<sup>4</sup>. Link: https://github.com/kminmin/LiSSE-MP 
 
 
 ## Authors
@@ -31,11 +31,9 @@ This repository is maintained by
 
 
 ## References
-(1) Ward, L.; Dunn, A.; Faghaninia, A.; Zimmermann, N. E. R.; Bajaj, S.; Wang, Q.; Montoya, J.; Chen, J.; Bystrom, K.; Dylla, M.; Chard, K.; Asta, M.; Persson, K. A.; Snyder, G. J.; Foster, I.; Jain, A. Matminer: An Open Source Toolkit for Materials Data Mining. Computational Materials Science 2018, 152, 60–69. https://doi.org/10.1016/j.commatsci.2018.05.018.<img width="468" height="55" alt="image" src="https://github.com/user-attachments/assets/acaf90ed-9ba8-41bc-9a9a-6750a7e9714e" />
+(1) Ward, L.; Dunn, A.; Faghaninia, A.; Zimmermann, N. E. R.; Bajaj, S.; Wang, Q.; Montoya, J.; Chen, J.; Bystrom, K.; Dylla, M.; Chard, K.; Asta, M.; Persson, K. A.; Snyder, G. J.; Foster, I.; Jain, A. Matminer: An Open Source Toolkit for Materials Data Mining. Computational Materials Science 2018, 152, 60–69. https://doi.org/10.1016/j.commatsci.2018.05.018.
 
-
-(2) Ong, S. P.; Richards, W. D.; Jain, A.; Hautier, G.; Kocher, M.; Cholia, S.; Gunter, D.; Chevrier, V. L.; Persson, K. A.; Ceder, G. Python Materials Genomics (Pymatgen): A Robust, Open-Source Python Library for Materials Analysis. Computational Materials Science 2013, 68, 314–319. https://doi.org/10.1016/j.commatsci.2012.10.028.<img width="468" height="45" alt="image" src="https://github.com/user-attachments/assets/42a40d26-3074-4b8b-a506-64cc6d7ecc95" />
-
+(2) Ong, S. P.; Richards, W. D.; Jain, A.; Hautier, G.; Kocher, M.; Cholia, S.; Gunter, D.; Chevrier, V. L.; Persson, K. A.; Ceder, G. Python Materials Genomics (Pymatgen): A Robust, Open-Source Python Library for Materials Analysis. Computational Materials Science 2013, 68, 314–319. https://doi.org/10.1016/j.commatsci.2012.10.028.
 
 (3) Jain, A.; Ong, S. P.; Hautier, G.; Chen, W.; Richards, W. D.; Dacek, S.; Cholia, S.; Gunter, D.; Skinner, D.; Ceder, G.; Persson, K. A. Commentary: The Materials Project: A Materials Genome Approach to Accelerating Materials Innovation. APL Materials 2013, 1 (1). https://doi.org/10.1063/1.4812323.
 
