@@ -15,11 +15,11 @@ The training and validation datasets used in this work were prepared with the ma
 ## Key information
 All the training and validation datasets used in this work contain 145 compositional attributes extracted using Matminer. The chemical composition is used as the input to extract the aforementioned features. It is recommended that users prepare the training and validation datasets directly from the respective sources mentioned below:
 
-The validation datasets are prepared and extracted from the Materials Project API <sup>1</sup>
+The validation datasets are prepared and extracted from the Materials Project API<sup>1</sup>
 
 The ionic conductivity training dataset is identical to the one used by Kang et al.<sup>4</sup>.  The mechanical properties training dataset is based off the one by Sun et al.<sup>5</sup>. The ESW training dataset is based off the work by Wang et al.<sup>6</sup>.
 
-The optimised models for machine learning predictions and model training have been uploaded for ease of replication of this work. They can be found in the `ionic_conductivity/optimised_models`, `mechanical_properties/optimised_models`, and `ESW/optimised_models` subdirectories
+The optimised models for machine learning predictions and model training have been uploaded for ease of replication of this work. They can be found in the `ionic_conductivity/optimised_models`, `mechanical_properties/optimised_models`, and `ESW/optimised_models` subdirectories. To avoid issues with loading the Skorch NN ionic conductivity classification models, PyTorch versions beyond 2.5.1 should not be installed.
 
 The main code to perform model training for predictions of the properties mentioned earlier is adapted from that by Kang et al.<sup>4</sup>. Users are recommended to refer to the original code provided in their GitHub repository.<sup>4</sup>. Link: https://github.com/kminmin/LiSSE-MP. The main difference is the addition of lines of code to save the average training performance metrics of the models besides the average test performance metrics. Both classification and regression metrics are compatible with the main code, depending on the property being predicted (classification for ionic conductivity and regression for ESW and mechanical properties). The snippet of code used to generate the Shapley feature importance plots is also similar to that by Kang et al. and available from their same repository <sup>4</sup>.
 
