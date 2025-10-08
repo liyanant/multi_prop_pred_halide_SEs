@@ -1,1 +1,1 @@
-# Optimised ionic conductivity classifier ML models
+# Optimised ionic conductivity classifier models
