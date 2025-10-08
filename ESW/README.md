@@ -1,6 +1,6 @@
 # ESW predictions
 
-The ESW of an SE is defined as the difference between the its oxidation and reduction potentials. ESW predictions in this work were performed via predictions of the reduction and oxidation potentials. The predictions of both potentials were performed using the regression method. The training dataset is adapted from Wang et al. and contains 1502 materials from the ICSD<sup>1,2</sup>. The validation dataset contains materials that contain any of the 7 elements with the most negative standard reduction potentials (Li, Na, K, Ca, Mg, Al, Ba)<sup>3</sup>.
+The ESW of an SE is defined as the difference between the its oxidation and reduction potentials. ESW predictions in this work were performed via predictions of the reduction and oxidation potentials. The predictions of both potentials were performed using the regression method. The training dataset is adapted from Wang et al. and contains 1502 materials from the ICSD<sup>1,2</sup>. The validation dataset contains materials that contain any of the 7 elements with the most negative standard reduction potentials (Li, Na, K, Ca, Mg, Al, Ba)<sup>3,4</sup>.
 
 ## References
 (1) Wang, X.; He, B.; Liu, B.; Avdeev, M.; Shi, S. A Database of Electrochemical Stability Windows Containing over 1500 Solid‐State Inorganic Compounds. Adv Funct Materials 2024, 2406146.
@@ -9,3 +9,4 @@ The ESW of an SE is defined as the difference between the its oxidation and redu
 
 (3) Jain, A.; Ong, S. P.; Hautier, G.; Chen, W.; Richards, W. D.; Dacek, S.; Cholia, S.; Gunter, D.; Skinner, D.; Ceder, G.; Persson, K. A. Commentary: The Materials Project: A Materials Genome Approach to Accelerating Materials Innovation. APL Materials 2013, 1 (1). https://doi.org/10.1063/1.4812323.
 
+(4) Flinn Scientific. Standard Reduction Potential Chart. www.flinnsci.com. https://www.flinnsci.com/standard-reduction-potential-chart/ap7041/ (accessed 2024-06-13).
