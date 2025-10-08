@@ -1,6 +1,6 @@
 # Mechanical properties predictions
 
-The predictions of mechanical properties in this work were performed via predictions of the Voigt-Reuss-Hill averages of the bulk (K_VRH) and shear moduli (G_VRH). The predictions of both potentials were performed using the regression method. The training dataset is adapted from Sun et al. and contains 16503 materials from the Materials Project. The validation dataset contains materials that contain any of the 7 elements with the most negative standard reduction potentials (Li, Na, K, Ca, Mg, Al, Ba)
+The predictions of mechanical properties in this work were performed via predictions of the Voigt-Reuss-Hill averages of the bulk (K_VRH) and shear moduli (G_VRH). The predictions of both potentials were performed using the regression method. The training dataset is adapted from Sun et al. and contains 16503 materials from the Materials Project. The validation dataset contains a total of 4743 materials that contain any of the 7 elements with the most negative standard reduction potentials (Li, Na, K, Ca, Mg, Al, Ba)
 
 ## References
 
