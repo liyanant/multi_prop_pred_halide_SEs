@@ -13,4 +13,4 @@ Shortlisted materials from the validation datasets are those predicted to have G
 (2) Jain, A.; Ong, S. P.; Hautier, G.; Chen, W.; Richards, W. D.; Dacek, S.; Cholia, S.; Gunter, D.; Skinner, D.; Ceder, G.; Persson, K. A. Commentary: The Materials Project: A Materials Genome Approach to Accelerating Materials Innovation. APL Materials 2013, 1 (1). https://doi.org/10.1063/1.4812323.
 
 
-(3) Flinn Scientific. Standard Reduction Potential Chart. www.flinnsci.com. https://www.flinnsci.com/standard-reduction-potential-chart/ap7041/ (accessed 2024-06-13).<img width="468" height="34" alt="image" src="https://github.com/user-attachments/assets/e201b6db-4f42-45f8-8d49-292e2e87d609" />
+(3) Flinn Scientific. Standard Reduction Potential Chart. www.flinnsci.com. https://www.flinnsci.com/standard-reduction-potential-chart/ap7041/ (accessed 2024-06-13).
