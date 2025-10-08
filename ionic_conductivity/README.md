@@ -1,6 +1,6 @@
 # Ionic conductivity classification predictions
 
-The training dataset used is adapted from Kang et al. and contains 328 SE materials. The validation dataset contains 1073 Li-based compounds from the Materials Project
+The training dataset used is adapted from Kang et al. and contains 328 SE materials<sup>1</sup>. The validation dataset contains 1073 Li-based compounds from the Materials Project that satisfied the general screening criteria described in Figure 1 in the main directory README<sup>2</sup>.
 
 
 ## References
