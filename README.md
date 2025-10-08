@@ -11,7 +11,13 @@ For model developments, Pycaret, Pytorch, and Skorch should be installed. For Py
 
 The training and validation datasets used in this work were prepared with the matminer library, pymatgen, and Materials Project API<sup>1-3</sup>. All the training and validation datasets used in this work contain 145 compositional attributes extracted using Matminer. The chemical composition is used as the required input to extract the aforementioned features. It is recommended that users prepare the training and validation datasets directly from the respective sources mentioned below:
 
-The validation datasets are prepared and extracted from the Materials Project API<sup>1</sup>
+The validation datasets are prepared and extracted from the Materials Project API<sup>1</sup>. The general screening criteria used to prepare the validation datasets is described in Figure 1.
+
+<img width="1239" height="567" alt="image" src="https://github.com/user-attachments/assets/57718395-1c25-45e1-a705-7a30297ad667" />
+
+#### Figure 1. General ML + DFT Workflow for property predictions. The properties predicted are the ionic conductivity, K_VRH, G_VRH, and reduction and oxidation potentials.
+
+
 
 The ionic conductivity training dataset is identical to the one used by Kang et al.<sup>4</sup>.  The mechanical properties training dataset is based off the one by Sun et al.<sup>5</sup>. The ESW training dataset is based off the work by Wang et al.<sup>6</sup>.
 
