@@ -2,6 +2,8 @@
 
 The ionic conductivity predictions were performed using the classification method. The training dataset used is adapted from Kang et al. and contains 328 SE materials<sup>1</sup>. The validation dataset contains 1073 Li-based compounds from the Materials Project that satisfied the general screening criteria described in Figure 1 in the main directory README<sup>2</sup>.
 
+The shortlisted materials from the validation dataset are those predicted to achieve a minimum ionic conductivity of 10<sup>-4</sup> Scm<sup>-1</sup>
+
 
 ## References
 
