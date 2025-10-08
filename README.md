@@ -3,13 +3,13 @@ This is a repository for multi-property predictions and verifications of novel h
 
 
 ## Key information
-The codes in this work were mainly prepared and run using either Jupyter Notebook or Google Colab. Users intending to replicate this work would need to install several packages and libraries to do so. These can be installed using pip or conda.
+The codes in this repository were mainly prepared and run using either Jupyter Notebook or Google Colab. Users intending to replicate this work would need to install several packages and libraries to do so. These can be installed using pip or conda.
 
 
 For model developments, Pycaret, Pytorch, and Skorch should be installed<sup>1-3</sup>. For Pycaret installation, users may want to attempt doing so with `pip install pycaret[full]` first. If installation issues are encountered with regards to compatibility with Python versions starting from 3.12, users may want to use this command instead `pip install git+https://github.com/pycaret/pycaret.git@master` as a possible solution.
 
 
-The training and validation datasets used in this work were prepared with the matminer library, pymatgen, and Materials Project API<sup>4-6</sup>. All the training and validation datasets used in this work contain 145 compositional attributes extracted using Matminer. Users may refer to the matminer documentation as a guide (Link: https://hackingmaterials.lbl.gov/matminer/index.html) The chemical composition is used as the required input to extract the aforementioned features. It is recommended that users prepare the training and validation datasets directly from the respective sources mentioned below:
+The training and validation datasets used were prepared with the matminer library, pymatgen, and Materials Project API<sup>4-6</sup>. All the training and validation datasets contain 145 compositional attributes extracted using Matminer. Users may refer to the matminer documentation as a guide (Link: https://hackingmaterials.lbl.gov/matminer/index.html) The chemical composition is used as the required input to extract the aforementioned features. It is recommended that users prepare the training and validation datasets directly from the respective sources mentioned below:
 
 The validation datasets are prepared and extracted from the Materials Project API<sup>4</sup>. The general screening criteria used to prepare the validation datasets are as follows:
 
