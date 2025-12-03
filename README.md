@@ -21,7 +21,7 @@ The validation datasets are prepared and extracted from the Materials Project AP
 6. No Cs-containing compounds
 
 
-The ionic conductivity training dataset is identical to the one used by Kang et al.<sup>7</sup>.  The mechanical properties training dataset is based off the one by Sun et al.<sup>8</sup>. The ESW training dataset is based off the work by Wang et al.<sup>9</sup>.
+The ionic conductivity training dataset is identical to the one used by Kang et al.(https://doi.org/10.1021/acs.jpcc.3c02908)<sup>7</sup>.  The mechanical properties training dataset is based off the one by Sun et al.(https://doi.org/10.1021/acsami.2c15980)<sup>8</sup>. The ESW training dataset is based off the work by Wang et al.(https://doi.org/10.1002/adfm.202406146)<sup>9</sup>.
 
 The optimised models for machine learning predictions and model training have been uploaded for ease of replication of this work. They can be found in the `ionic_conductivity/optimised_models`, `mechanical_properties/optimised_models`, and `ESW/optimised_models` subdirectories. To avoid issues with loading the Skorch NN ionic conductivity classification models, PyTorch versions beyond 2.5.1 should not be installed.
 
